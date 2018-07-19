@@ -14,24 +14,26 @@ Double click the jar provided.  Or run from the command line with 'java -jar fp-
 
 If you have cloned the repo, you will need to build with './gralde build' before running. (The jar should be located in /build/libs.)
 
-## Controller
+## Controller (with printing!)
 
 A simple controller is provided.
 
 ```
 fx:controller="Controller.DefualtController"
 ```
-As this time it has just one memberand one method. 
+At this time it has just one member and one method.
 
 ```
 public class DefaultController {
     @FXML private Text actiontarget;
 
     @FXML
-    protected void handleSubmitButtonAction(ActionEvent event) {
-        actiontarget.setText("Submit pressed");
+    protected void handlePrintButtonAction(ActionEvent event) {
+        ...
     }
 }
 ```
 
-For now this provides a simple test button, assuming a Text control names actionTarget is included in the mock-up.
+If you want to use the DefaultController (and expect to use it's test printing functionality) you must add an actionTarget Text element to your layout.
+
+With an actionTarget Text and a Print Button which calls handlePrintButtonAction you can use the default controller to print your layout in (scaled in landscape orientation) to a printing device of you choice.
