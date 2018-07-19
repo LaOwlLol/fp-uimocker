@@ -8,7 +8,7 @@ See [Oracle Documentation]( https://docs.oracle.com/javafx/2/get_started/fxml_tu
 
 Create an FXML file named 'GuiPrototype.fxml' and place it in your home directory and run this application for GUI mock-ups or prototypes.
 
-##Running...
+## Running...
 
 Double click the jar provided.  Or run from the command line with 'java -jar fp-uimocker.jar'
 
