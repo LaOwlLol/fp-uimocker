@@ -4,7 +4,7 @@ A simple JavaFX Application with FXMLLoader for mock-up or prototype GUIs in FXM
 
 ## How To Use...
 
-See [Oracle Documentation]( https://docs.oracle.com/javafx/2/get_started/fxml_tutorial.htm) for an introduction to Java FXML.  Do not working about writing a Java class to load the fxml file; That's what this application does! 
+See [Oracle Documentation]( https://docs.oracle.com/javafx/2/get_started/fxml_tutorial.htm) for an introduction to Java FXML.  Do not worry about writing a Java class to load the fxml file; That's what this application does! 
 
 Create an FXML file named 'GuiPrototype.fxml' and place it in your home directory and run this application for GUI mock-ups or prototypes.
 
